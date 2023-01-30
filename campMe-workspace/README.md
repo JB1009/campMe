@@ -1,63 +1,31 @@
-## CAMP ME 🚎
+# CampingON and CampME
 
-    캠핑장 커뮤니티 플랫폼
 
-### 개발 환경
+주제 : 캠핑장 정보공유 및 소통 커뮤니티/캠핑장 예약관리 및 캠핑장 업주가 문의를 통해 캠핑장을 등록할 수 있는 사이트
 
-- npm ^8.19.3
-- react ^18.2.0
-- create-react-app ^18.2.0
-- react-router-dom ^6.6.1
-- react-hook-form ^7.41.5
-- "react-toastify": "^9.1.1"
-- "sweetalert": "^2.1.2"
-- axios ^1.2.2
+개요 : 캠핑장 정보공유 및 소통 커뮤니티 사이트 제작 프로젝트는 캠핑을 다녀온 사람 혹은 캠핑을 가고자 계획중인 사람들을 대상으로 만든 프로젝트 입니다.
 
-### 프로젝트 구조
 
-```bash
-┌── src
-│   ├── common (공용 기능)
-│   │   └── settings.js
-│   ├── components
-│   │    ├── Board (게시판 글목록 (후기, 지역별모임))
-│   │    ├── BoardDetail (게시글 세부내용)
-│   │    ├── BoardStyle (게시판 css)
-│   │    ├── BoardWrite (게시글 작성)
-│   │    ├── Find (비밀번호 찾기)
-│   │    ├── Footer (페이지 하단 고정)
-│   │    ├── Header (페이지 상단 고정)
-│   │    ├── images (사진 폴더)
-│   │    ├── Join (회원가입)
-│   │    ├── Loading (API 연결 전 로딩화면)
-│   │    ├── Login (로그인)
-│   │    ├── Section (메인페이지 중앙)
-│   │    └── SimpleSlide (메인페이지 슬라이드)
-│   ├── libs
-│   │    └── alert.js (toastify 안내창)
-│   ├── App.js (프로젝트 중심페이지 (Router))
-│   └── App.css (프로젝트 중심페이지 css)
-│
-└── public
-    └── index.html
-```
+- 프로젝트 기간 : 3주
+- 프로젝트 인원 : 8명(프론트 4, 백엔드 4)
 
-### Organizer
+- 사용 기술 : React.js, Spring Boot, JPA, MySQL, Git, AWS
 
-- 최윤도 (96CHOI)
-- 장영주 (JJang young)
+- 담당 업무 : DB 모델링 , JPA활용 API구축 , AXIOS활용 react.js CRUD
 
-### 설치한 VSCode Extensions
+- 세부 업무 : CampME 게시판 글등록,CampingON 예약기능,다녀온 캠핑기록
 
-- ES7 React/Redux/GraphQL/React-Native snippets
-- Simple React Snippets
-- React Native Snippet
-- Prettier
-- ESLint
-- Material Icon Theme
+- 느낀점 : 
+    -  여러 인원으로 진행하는 프로젝트로 소통을 통한 pull,push의 중요성을 경험
+    -  복잡한 DB모델링을 직접 해봄으로써 탄탄한 기초설계를 해야 차후 프로젝트 진행중에 문제가 되지않음을 경험
 
-### 시작 방법
+- 보완점 :
+    - 이미지 업로드 기능을 완벽히 적용하지못한 아쉬움
+    - DB설계 문제로 인해 프로젝트중 적용하지못한 DB가 생기고 이로인해 DB모델링을 다시하여 시간이 더 걸린부분을 보완
 
-1. cd ./CAMPME-REACT
-2. npm install
-3. npm start
+
+
+
+
+
+

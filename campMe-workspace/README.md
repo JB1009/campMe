@@ -1,5 +1,6 @@
 # CampingON and CampME
 
+<img src=campME.png>
 
 주제 : 캠핑장 정보공유 및 소통 커뮤니티/캠핑장 예약관리 및 캠핑장 업주가 문의를 통해 캠핑장을 등록할 수 있는 사이트
 
